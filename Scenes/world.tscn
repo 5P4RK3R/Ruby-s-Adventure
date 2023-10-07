@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://cqssxx8wdhngv"]
+
+[sub_resource type="TileSet" id="TileSet_psih7"]
+
+[node name="World" type="Node2D"]
+
+[node name="Ground" type="TileMap" parent="."]
+tile_set = SubResource("TileSet_psih7")
+format = 2
