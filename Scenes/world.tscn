@@ -1,4 +1,6 @@
-[gd_scene load_steps=2 format=3 uid="uid://cqssxx8wdhngv"]
+[gd_scene load_steps=3 format=3 uid="uid://cqssxx8wdhngv"]
+
+[ext_resource type="PackedScene" uid="uid://bh7d38l1jcwia" path="res://Scenes/player.tscn" id="1_xsxuy"]
 
 [sub_resource type="TileSet" id="TileSet_psih7"]
 
@@ -7,3 +9,6 @@
 [node name="Ground" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_psih7")
 format = 2
+
+[node name="Player" parent="." instance=ExtResource("1_xsxuy")]
+position = Vector2(193, 178)
